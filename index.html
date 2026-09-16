@@ -1,11 +1,105 @@
-html<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Inspirato Coffee</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inspirato Coffee</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome!</h1>
-    <p>What's brewing today?</p>
+
+  <header class="site-header">
+    <img src="logo.png" alt="Inspirato Coffee logo" class="logo">
+    <h1>Inspirato&nbsp;Coffee</h1>
+    <p class="tagline">roasted in small batches &mdash; sold in smaller ones</p>
+  </header>
+
+  <hr class="rule">
+
+  <main>
+
+    <section class="about">
+      <h2>About</h2>
+      <p>
+        Inspirato Coffee is a one-person roasting operation. Each week I roast
+        a single small batch, taste it until I'm satisfied, and put out what's
+        left for the neighborhood. No subscriptions, no wholesale, no rush &mdash;
+        just coffee roasted the way I'd want to drink it myself.
+      </p>
+    </section>
+
+    <hr class="rule">
+
+    <section class="latest-drop">
+      <h2>Latest Drop</h2>
+
+      <div class="drop-card">
+        <h3 class="drop-name">Ethiopia Guji &mdash; Washed</h3>
+
+        <div class="tasting-notes">
+          <span class="label">Tasting Notes</span>
+          <p>Bergamot, stone fruit, and a long, clean, black-tea finish.</p>
+        </div>
+
+        <table class="availability">
+          <thead>
+            <tr>
+              <th>Bags Available</th>
+              <th>Roasted On</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>14</td>
+              <td>September 15, 2026</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p class="pickup-note">Pickup only, while supplies last.</p>
+      </div>
+    </section>
+
+    <hr class="rule">
+
+    <section class="prices">
+      <h2>Prices</h2>
+      <table class="price-list">
+        <tr>
+          <td class="item">Regular bag (1&nbsp;lb.)</td>
+          <td class="dots">&nbsp;</td>
+          <td class="price">$18.00</td>
+        </tr>
+        <tr>
+          <td class="item">Dem-bag (1/2&nbsp;lb.)</td>
+          <td class="dots">&nbsp;</td>
+          <td class="price">$10.00</td>
+        </tr>
+      </table>
+    </section>
+
+    <hr class="rule">
+
+    <section class="payment">
+      <h2>Payment</h2>
+      <div class="qr-placeholder">
+        <span>QR&nbsp;&mdash;&nbsp;Venmo</span>
+      </div>
+      <p class="payment-note">Scan to pay via Venmo at pickup.</p>
+    </section>
+
+    <hr class="rule">
+
+    <section class="contact">
+      <h2>Questions</h2>
+      <p><a href="mailto:inspirato.coffee@protonmail.com">inspirato.coffee@protonmail.com</a></p>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Inspirato Coffee &middot; Licence&nbsp;#XXXX-000000 <em>[coming soon]</em></p>
+  </footer>
+
 </body>
 </html>
